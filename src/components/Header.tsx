@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
-import logo from "@/assets/logo-transparent.png";
+import logo from "@/assets/logo-new.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,9 +36,7 @@ const Header = () => {
           <img 
             src={logo} 
             alt="Precision Group Logo" 
-            className={`h-14 md:h-16 w-auto transition-all duration-300 ${
-              isScrolled ? "" : "brightness-0 invert"
-            }`} 
+            className="h-14 md:h-16 w-auto transition-all duration-300"
           />
         </a>
 
