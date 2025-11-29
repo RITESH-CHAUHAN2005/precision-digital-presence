@@ -1,4 +1,8 @@
 import { useEffect, useRef, useState } from "react";
+import flsmidthLogo from "@/assets/client-flsmidth.png";
+import metsoLogo from "@/assets/client-metso.png";
+import tennecoLogo from "@/assets/client-tenneco.png";
+import valmetLogo from "@/assets/client-valmet.png";
 
 const Clients = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -20,25 +24,25 @@ const Clients = () => {
     { 
       name: "FLSmidth", 
       contribution: "56%",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/FLSmidth_logo.svg/1200px-FLSmidth_logo.svg.png",
+      logo: flsmidthLogo,
       description: "Global leader in mining and cement industries"
     },
     { 
       name: "Metso", 
       contribution: "29%",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Metso_logo.svg/1200px-Metso_logo.svg.png",
+      logo: metsoLogo,
       description: "Sustainable technology for mining and aggregates"
     },
     { 
       name: "Tenneco", 
       contribution: "",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Tenneco_logo.svg/1200px-Tenneco_logo.svg.png",
+      logo: tennecoLogo,
       description: "Automotive components and systems"
     },
     { 
       name: "Valmet", 
       contribution: "",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Valmet_logo.svg/1200px-Valmet_logo.svg.png",
+      logo: valmetLogo,
       description: "Pulp, paper and energy industries"
     },
   ];

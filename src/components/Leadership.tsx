@@ -25,7 +25,6 @@ const Leadership = () => {
       image: ceoImage,
       description:
         "With over 25 years of experience in precision engineering and manufacturing, Mr. Satish Kumar leads Precision Group with a vision for excellence and innovation. His strategic leadership has been instrumental in establishing the company as a trusted partner for global industry leaders.",
-      expertise: ["Strategic Planning", "Operations Management", "Business Development"],
     },
     {
       name: "Mr. Rakesh Sharma",
@@ -33,7 +32,6 @@ const Leadership = () => {
       image: procurementHeadImage,
       description:
         "Mr. Rakesh Sharma brings dynamic energy and expertise to our procurement operations. His focus on building strong supplier relationships and optimizing supply chain efficiency ensures we deliver quality products on time, every time.",
-      expertise: ["Supply Chain Management", "Vendor Relations", "Cost Optimization"],
     },
   ];
 
@@ -97,19 +95,9 @@ const Leadership = () => {
                 </div>
               </div>
               <div className="p-6 lg:p-8">
-                <p className="font-inter text-muted-foreground leading-relaxed mb-6">
+                <p className="font-inter text-muted-foreground leading-relaxed">
                   {leader.description}
                 </p>
-                <div className="flex flex-wrap gap-2">
-                  {leader.expertise.map((skill, skillIndex) => (
-                    <span
-                      key={skillIndex}
-                      className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-inter font-medium"
-                    >
-                      {skill}
-                    </span>
-                  ))}
-                </div>
               </div>
             </div>
           ))}
