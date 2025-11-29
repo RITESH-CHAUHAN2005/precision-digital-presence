@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Leadership from "@/components/Leadership";
 import About from "@/components/About";
 import CoreValues from "@/components/CoreValues";
 import Products from "@/components/Products";
@@ -15,6 +16,7 @@ const Index = () => {
     <main className="overflow-x-hidden">
       <Header />
       <Hero />
+      <Leadership />
       <About />
       <CoreValues />
       <Products />
